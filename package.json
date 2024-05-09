@@ -1,0 +1,14 @@
+{
+  "name": "notes-two",
+  "version": "1.0.0",
+  "description": "My first notes",
+  "source": "index.html",
+  "scripts": {
+    "note:start": "sass --style:exspended --watch styles:dist"
+  },
+  "author": "Albert Mr",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.0"
+  }
+}

@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(28, 44, 49);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 100px 0 0 0;
+}
+.container .wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 0 20px;
+}
+.container .wrapper__title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+.container .wrapper__field {
+  width: 500px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.container .wrapper__btn {
+  height: 28px;
+  cursor: pointer;
+}
+.container .wrapper__block {
+  background-color: white;
+  margin: 0;
+  padding: 0 0 0 0;
+}
+.container .wrapper__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .wrapper__mark-cross {
+  padding: 0 10px 0 0;
+}
+.container .wrapper__list {
+  list-style-type: none;
+  border-bottom: 1px solid #000;
+}
+.container .wrapper__checkmark-2 {
+  background-color: orange;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.container .wrapper__checkmark {
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 0 0 5px 0;
+}
+.container .wrapper__crossed-out-text {
+  text-decoration: line-through;
+  padding: 0 0 0 10px;
+  max-width: 400px;
+  word-break: break-all;
+  font-size: 20px;
+}
+.container .wrapper__cross {
+  background-color: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.container .wrapper__result {
+  padding: 0 0 0 10px;
+  max-height: 100%;
+  word-break: break-all;
+  max-width: 400px;
+  font-size: 20px;
+}
+
+@media (max-width: 570px) {
+  .container .wrapper__field {
+    width: 400px;
+  }
+  .container .wrapper__block {
+    width: 400px;
+  }
+}
+@media (max-width: 440px) {
+  .container {
+    padding: 10px 0 0 0;
+  }
+  .container .wrapper__field {
+    width: 250px;
+  }
+  .container .wrapper__btn {
+    width: 250px;
+    cursor: pointer;
+  }
+  .container .wrapper__block {
+    width: 250px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

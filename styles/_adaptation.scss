@@ -1,0 +1,32 @@
+@media (max-width: 570px) {
+    .container {
+        .wrapper {
+            &__field {
+                width: 400px;
+            }
+
+            &__block {
+                width: 400px;
+            }
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .container {
+        padding: 10px 0 0 0;
+        .wrapper {
+            &__field {
+                width: 250px;
+            }
+
+            &__btn {
+                width: 250px;
+                cursor: pointer;
+            }
+            &__block {
+                width: 250px;
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(28, 44, 49);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 100px 0 0 0;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 0 20px;
+        &__title {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            margin: 0;
+            margin-bottom: 10px;
+            color: #fff;
+            text-align: center;
+        }
+        &__field {
+            width: 500px;
+            height: 40px;
+            font-size: 20px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+        }
+        &__btn {
+            height: 28px;
+            cursor: pointer;
+        }
+        &__block {
+            background-color: white;
+            margin: 0;
+            padding: 0 0 0 0;
+        }
+        &__buttons {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__mark-cross {
+            padding: 0 10px 0 0;
+        }
+        &__list {
+            list-style-type: none;
+            border-bottom: 1px solid #000;
+        }
+
+        &__checkmark-2 {
+            background-color: orange;
+            border: none;
+            color: white;
+            cursor: pointer;
+            
+        }
+
+        &__checkmark {
+            background-color: green;
+            border: none;
+            color: white;
+            cursor: pointer;
+            margin: 0 0 5px 0;
+        }
+
+        &__crossed-out-text {
+            text-decoration: line-through;
+            padding: 0 0 0 10px;
+            max-width: 400px;
+            word-break: break-all;
+            font-size: 20px;
+        }
+
+        &__cross {
+            background-color: red;
+            border: none;
+            color: white;
+            cursor: pointer;
+
+        }
+        &__result {
+            padding: 0 0 0 10px;
+            max-height: 100%;
+            word-break: break-all;
+            max-width: 400px;
+            font-size: 20px;
+        }
+    }
+}
+
+@import 'adaptation';
