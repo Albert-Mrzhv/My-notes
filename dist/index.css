@@ -39,11 +39,24 @@ body {
 .container .wrapper__btn {
   height: 28px;
   cursor: pointer;
+  border: 1px solid rgb(67, 149, 250);
+  background-color: rgb(28, 44, 49);
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.container .wrapper__btn:hover {
+  background-color: rgb(151, 168, 174);
+  color: #000;
+}
+.container .wrapper__btn:active {
+  background-color: #fff;
 }
 .container .wrapper__block {
   background-color: white;
   margin: 0;
   padding: 0 0 0 0;
+  border-radius: 10px;
 }
 .container .wrapper__buttons {
   display: flex;
@@ -58,17 +71,36 @@ body {
   border-bottom: 1px solid #000;
 }
 .container .wrapper__checkmark-2 {
-  background-color: orange;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(188, 124, 5);
   border: none;
   color: white;
   cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.container .wrapper__checkmark-2:hover {
+  background-color: orange;
+}
+.container .wrapper__checkmark-2:active {
+  background-color: rgb(242, 207, 142);
 }
 .container .wrapper__checkmark {
+  width: 25px;
+  height: 25px;
   background-color: green;
   border: none;
   color: white;
   cursor: pointer;
-  margin: 0 0 5px 0;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.container .wrapper__checkmark:hover {
+  background-color: rgb(8, 200, 8);
+}
+.container .wrapper__checkmark:active {
+  background-color: #73ed71;
 }
 .container .wrapper__crossed-out-text {
   text-decoration: line-through;
@@ -78,10 +110,21 @@ body {
   font-size: 20px;
 }
 .container .wrapper__cross {
-  background-color: red;
+  width: 25px;
+  height: 25px;
+  background-color: #a31010;
   border: none;
   color: white;
   cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.container .wrapper__cross:hover {
+  background-color: rgb(255, 0, 0);
+}
+.container .wrapper__cross:active {
+  background-color: #e48a8a;
+  color: #000;
 }
 .container .wrapper__result {
   padding: 0 0 0 10px;

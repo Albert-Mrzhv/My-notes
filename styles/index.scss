@@ -37,11 +37,24 @@ body {
         &__btn {
             height: 28px;
             cursor: pointer;
+            border: 1px solid rgb(67, 149, 250);
+            background-color: rgb(28, 44, 49);
+            color: #fff;
+            border-radius: 10px;
+            transition: all 0.3s;
+            &:hover {
+                background-color: rgb(151, 168, 174);
+                color: #000;
+            }
+            &:active {
+                background-color: #fff;
+            }
         }
         &__block {
             background-color: white;
             margin: 0;
             padding: 0 0 0 0;
+            border-radius: 10px;
         }
         &__buttons {
             display: flex;
@@ -57,19 +70,37 @@ body {
         }
 
         &__checkmark-2 {
-            background-color: orange;
+            width: 25px;
+            height: 25px;
+            background-color: rgb(188, 124, 5);
             border: none;
             color: white;
             cursor: pointer;
-            
+            border-radius: 4px;
+            transition: all 0.3s;
+            &:hover {
+                background-color: orange;
+            }
+            &:active {
+                background-color: rgb(242, 207, 142);
+            }
         }
 
         &__checkmark {
+            width: 25px;
+            height: 25px;
             background-color: green;
             border: none;
             color: white;
             cursor: pointer;
-            margin: 0 0 5px 0;
+            border-radius: 4px;
+            transition: all 0.3s;
+            &:hover {
+                background-color: rgb(8, 200, 8);
+            }
+            &:active {
+                background-color: #73ed71;
+            }
         }
 
         &__crossed-out-text {
@@ -81,11 +112,21 @@ body {
         }
 
         &__cross {
-            background-color: red;
+            width: 25px;
+            height: 25px;
+            background-color: #a31010;
             border: none;
             color: white;
             cursor: pointer;
-
+            border-radius: 4px;
+            transition: all 0.3s;
+            &:hover {
+                background-color: rgb(255, 0, 0);
+            }
+            &:active {
+                background-color: #e48a8a;
+                color: #000;
+            }
         }
         &__result {
             padding: 0 0 0 10px;
