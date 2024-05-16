@@ -4,17 +4,7 @@ const result = document.getElementById('result');
 const mark = document.getElementById('mark');
 const cross = document.getElementById('cross');
 
-const arrey = [
-    {
-        title: 'Сделать что-то интересное',
-        completed: true
-    },
-
-    {
-        title: 'Написать какой-то текст',
-        completed: false
-    },
-]
+const arrey = []
 
 function ArrEll() {
     result.innerHTML = ''
